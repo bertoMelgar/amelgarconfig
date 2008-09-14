@@ -1,0 +1,1 @@
+urxvtc -tr -fade 25 -foreground orange -fn "xft:Bitstream Vera Sans Mono:pixelsize=15"

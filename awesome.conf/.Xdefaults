@@ -1,0 +1,57 @@
+URxvt*termName: rxvt
+
+#URxvt*font:		xft:DejaVu Sans Mono:pixelsize=14
+URxvt*.font:		xft:Bitstream Vera Sans Mono:pixelsize=15
+URxvt*scrollBar:        false
+URxvt*underlineColor:   #99CCFF
+URxvt.borderLess:       true
+Urxvt*depth: 32
+Urxvt*background: rgba:0000/0000/0000/dddd
+
+urxvt*urllauncher:           firefox
+urxvt*matcher.button:        3
+urxvt*saveLines:             8192
+#urxvt.perl-ext-common:      default,matcher,tabbed
+
+*color0:                #333333
+*color1:                #D53737
+*color2:                #75BD00
+*color3:                #F1BB32
+#*color4:               #000000         
+*color5:                #A368CD
+*color6:                #99CCFF
+*color7:                #E0E0E0
+*color8:                #C3C3C3
+*color9:                #FF6060
+*color10:               #75BD00
+*color11:               #FFB044
+*color12:               #99CCFF
+*color13:               #887680
+*color14:               #9CC1C2
+*color15:               #FFFFFF
+
+URxvt.cursorColor:  #dc74d1
+URxvt.pointerColor: #dc74d1
+URxvt.background:   #0e0e0e
+URxvt.foreground:   #4ad5e1
+URxvt.color0:       #000000
+URxvt.color8:       #8b8f93
+# color pestañas
+URxvt.color1:       #dc74d1 
+URxvt.color9:       #dc74d1
+URxvt.color2:       #0eb8c7
+URxvt.color10:      #0eb8c7
+URxvt.color3:       #dfe37e
+URxvt.color11:      #dfe37e
+URxvt.color5:       #9e88f0
+URxvt.color13:      #9e88f0
+URxvt.color6:       #73f7ff
+URxvt.color14:      #73f7ff
+URxvt.color7:       #e1dddd
+URxvt.color15:      #e1dddd
+
+Xft.dpi: 		96
+Xft.autohinting:	1
+Xft.hintstyle:		hintfull
+Xft.antialias:		1
+Xft.rgba:		rgb
