@@ -14,5 +14,8 @@ urxvtd -q -f -o &
 # xmonad 
 #/home/amelgar/bin/run-xmonad.sh 
 
-awesome-status &
+#E17
+#exec /usr/local/bin/enlightenment_start
+
+estado &
 exec /usr/local/bin/awesome
