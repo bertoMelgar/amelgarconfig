@@ -1,0 +1,18 @@
+#kill startup message
+startup_message off
+
+defscrollback 1024
+hardstatus on
+hardstatus alwayslastline
+
+#hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
+
+hardstatus string '%{= kg}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %d %M %c ]%{W}'
+
+
+screen -t rOOt 0 su - 
+screen -t ncmpc 1 bash
+screen -t mutt 2 bash
+screen -t MidnightComander 3 mc 
+screen -t vimTerm 4 bash
+screen -t terminal 5 bash
